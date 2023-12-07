@@ -23,7 +23,7 @@ describe('Todo', () => {
 		todoList.add('Task 1');
 		todoList.add('Task 2');
 		todoList.add('Task 3');
-
+		
 		todoList.remove(1);
 		expect(todoList.getAll()).toEqual(['Task 1', 'Task 3']);
 
